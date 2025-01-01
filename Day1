@@ -1,0 +1,37 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Delivery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Food Delivery</h1>
+  </header>
+
+  <main>
+    <h2>Our Menu</h2>
+    <div id="menu">
+      <!-- Food items will be injected here by JavaScript -->
+    </div>
+
+    <h3>Your Cart</h3>
+    <div id="cart">
+      <ul id="cart-list">
+        <!-- Cart items will appear here -->
+      </ul>
+      <p id="total-price">Total: $0</p>
+      <button id="place-order">Place Order</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>Food Delivery App - &copy; 2025</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
