@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Food</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="logo">
+      <h1>Delicious Food</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Banner Section -->
+  <section id="home" class="banner">
+    <div class="banner-text">
+      <h2>Welcome to Delicious Food</h2>
+      <p>Explore our mouth-watering menu!</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu">
+    <h2>Our Menu</h2>
+    <div class="food-items">
+      <div class="food-item">
+        <img src="food1.jpg" alt="Pizza">
+        <h3>Pizza</h3>
+        <p>Cheese, tomato, and your favorite toppings!</p>
+      </div>
+      <div class="food-item">
+        <img src="food2.jpg" alt="Burger">
+        <h3>Burger</h3>
+        <p>Juicy beef patty with fresh veggies and sauces.</p>
+      </div>
+      <div class="food-item">
+        <img src="food3.jpg" alt="Pasta">
+        <h3>Pasta</h3>
+        <p>Classic pasta with a creamy sauce.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to reach out!</p>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Delicious Food. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
