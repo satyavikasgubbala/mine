@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Medical Commercial Website providing health services, products, and consultations.">
+    <meta name="keywords" content="medical, healthcare, services, products, health, treatment">
+    <meta name="author" content="Your Company Name">
+    <title>Medical Solutions</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #0044cc;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+        }
+        .services, .products, .testimonials {
+            display: flex;
+            justify-content: space-around;
+        }
+        .service, .product {
+            width: 30%;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .service img, .product img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .form-container {
+            max-width: 600px;
+            margin: auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+        }
+        .form-container input, .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        .form-container button {
+            background-color: #0044cc;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Medical Solutions</h1>
+    <p>Your trusted healthcare partner</p>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#products">Products</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact Us</a>
+</nav>
+
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services">
+        <div class="service">
+            <img src="doctor1.jpg" alt="Doctor Consultation">
+            <h3>Consultation</h3>
+            <p>Professional health consultation with experienced doctors.</p>
+        </div>
+        <div class="service">
+            <img src="hospital.jpg" alt="Medical Treatment">
+            <h3>Treatment</h3>
+            <p>State-of-the-art treatments for various medical conditions.</p>
+        </div>
+        <div class="service">
+            <img src="surgery.jpg" alt="Surgical Procedures">
+            <h3>Surgery</h3>
+            <p>Minimally invasive and advanced surgical procedures.</p>
+        </div>
+    </div>
+</section>
+
+<section id="products">
+    <h2>Our Products</h2>
+    <div class="products">
+        <div class="product">
+            <img src="product1.jpg" alt="Health Supplements">
+            <h3>Health Supplements</h3>
+            <p>Boost your immune system with our premium health supplements.</p>
+        </div>
+        <div class="product">
+            <img src="product2.jpg" alt="Medical Equipment">
+            <h3>Medical Equipment</h3>
+            <p>Reliable and durable medical equipment for home care.</p>
+        </div>
+        <div class="product">
+            <img src="product3.jpg" alt="First Aid Kit">
+            <h3>First Aid Kit</h3>
+            <p>Essential first aid kits for emergencies at home or work.</p>
+        </div>
+    </div>
+</section>
+
+<section id="testimonials">
+    <h2>What Our Clients Say</h2>
+    <div class="testimonials">
+        <div class="testimonial">
+            <p>"The doctors are highly skilled, and the service was excellent!"</p>
+            <p>- John Doe</p>
+        </div>
+        <div class="testimonial">
+            <p>"The health products I bought really improved my well-being."</p>
+            <p>- Jane Smith</p>
+        </div>
+        <div class="testimonial">
+            <p>"A trusted healthcare provider with a caring team."</p>
+            <p>- Sarah Lee</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact Us</h2>
+    <div class="form-container">
+        <form action="submit_form.php" method="POST">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Medical Solutions | All Rights Reserved</p>
+    <p>123 Health St, City, Country</p>
+</footer>
+
+</body>
+</html>
